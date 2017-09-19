@@ -1,5 +1,5 @@
-#AmpBuddy
-## Build a Dynamic Website with Koa.js
+##AmpBuddy
+### Build a Dynamic Website with Koa.js
 
 To install you will need the following...
 1. Node.js 7.x.x or higher
