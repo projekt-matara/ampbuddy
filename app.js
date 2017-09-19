@@ -7,12 +7,9 @@ const config = require('./config')
 // import middleware config
 const bodyParser = require('koa-bodyParser')
 const convert = require('koa-convert')
-const res = require('koa-res')
 const router = require('koa-simple-router')
-const liveReload = require('koa-livereload')
 const views = require('koa-views')
 const stylus = require('koa-stylus')
-const mount = require('koa-mount')
 const serveStatic = require('koa-static')
 
 // initialize koa server
@@ -70,9 +67,6 @@ app.use(async (ctx, next) => {
     }
   }
 })
-
-// initialize passport
-app.use(passport.initialize())
 
 // logger
 app.use(async (ctx, next) => {

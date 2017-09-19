@@ -43,10 +43,6 @@ asap@~2.0.3:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
 
-async@0.2.10:
-  version "0.2.10"
-  resolved "https://registry.yarnpkg.com/async/-/async-0.2.10.tgz#b6bbe0b0674b9d719708ca38de8c237cb526c3d1"
-
 async@2.1.4:
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/async/-/async-2.1.4.tgz#2d2160c7788032e4dd6cbe2502f1f9a2c8f6cde4"
@@ -56,10 +52,6 @@ async@2.1.4:
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
-
-bcrypt-nodejs@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/bcrypt-nodejs/-/bcrypt-nodejs-0.0.3.tgz#c60917f26dc235661566c681061c303c2b28842b"
 
 bluebird@2.10.2:
   version "2.10.2"
@@ -175,13 +167,9 @@ copy-to@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/copy-to/-/copy-to-2.0.1.tgz#2680fbb8068a48d08656b6098092bdafc906f4a5"
 
-core-util-is@^1.0.2, core-util-is@~1.0.0:
+core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
-
-crc@^3.4.4:
-  version "3.4.4"
-  resolved "https://registry.yarnpkg.com/crc/-/crc-3.4.4.tgz#9da1e980e3bd44fc5c93bf5ab3da3378d85e466b"
 
 css-parse@1.7.x:
   version "1.7.0"
@@ -193,7 +181,7 @@ debug@*:
   dependencies:
     ms "2.0.0"
 
-debug@2.6.8, debug@^2.1.3, debug@^2.2.0, debug@^2.6.1, debug@^2.6.3, debug@^2.6.8:
+debug@2.6.8, debug@^2.1.3, debug@^2.6.3, debug@^2.6.8:
   version "2.6.8"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
   dependencies:
@@ -330,10 +318,6 @@ is-buffer@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.5.tgz#1f3b26ef613b214b88cbca23cc6c01d87961eecc"
 
-is-class@~0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/is-class/-/is-class-0.0.4.tgz#e057451705bb34e39e3e33598c93a9837296b736"
-
 is-expression@^2.0.1:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/is-expression/-/is-expression-2.1.0.tgz#91be9d47debcfef077977e9722be6dcfb4465ef0"
@@ -362,14 +346,6 @@ is-regex@^1.0.3:
   dependencies:
     has "^1.0.1"
 
-is-type-of@^1.0.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/is-type-of/-/is-type-of-1.2.0.tgz#b553cbb4621adf5b4171e8883f370e7a6ec38995"
-  dependencies:
-    core-util-is "^1.0.2"
-    is-class "~0.0.4"
-    isstream "~0.1.2"
-
 isarray@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
@@ -377,10 +353,6 @@ isarray@0.0.1:
 isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
-
-isstream@~0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
 jquery@>=3.0.0, jquery@^3.2.1:
   version "3.2.1"
@@ -418,7 +390,7 @@ koa-bodyparser@^4.2.0:
     co-body "^5.1.0"
     copy-to "^2.0.1"
 
-koa-compose@^3.0.0, koa-compose@^3.2.1:
+koa-compose@^3.0.0:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/koa-compose/-/koa-compose-3.2.1.tgz#a85ccb40b7d986d8e5a345b3a1ace8eabcf54de7"
   dependencies:
@@ -439,24 +411,6 @@ koa-is-json@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/koa-is-json/-/koa-is-json-1.0.0.tgz#273c07edcdcb8df6a2c1ab7d59ee76491451ec14"
 
-koa-livereload@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/koa-livereload/-/koa-livereload-0.2.0.tgz#6eb4ca910a5c78f4050cb28306958a1b7160ab2e"
-  dependencies:
-    koa "^2.0.0"
-    stream-injecter "0.0.1"
-
-koa-mount@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/koa-mount/-/koa-mount-3.0.0.tgz#08cab3b83d31442ed8b7e75c54b1abeb922ec197"
-  dependencies:
-    debug "^2.6.1"
-    koa-compose "^3.2.1"
-
-koa-res@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/koa-res/-/koa-res-1.3.0.tgz#1a3d923ce643ef82465c64ed6c2ecaece19a2cbc"
-
 koa-send@^4.0.0, koa-send@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/koa-send/-/koa-send-4.1.0.tgz#07d5a4eaab212679fe99916aae6b1109c08c2361"
@@ -465,15 +419,6 @@ koa-send@^4.0.0, koa-send@^4.1.0:
     http-errors "^1.6.1"
     mz "^2.6.0"
     resolve-path "^1.3.3"
-
-koa-session@^5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/koa-session/-/koa-session-5.5.0.tgz#743ea5e5ead0a23444788c8776d66f674f325815"
-  dependencies:
-    crc "^3.4.4"
-    debug "^2.2.0"
-    is-type-of "^1.0.0"
-    uid-safe "^2.1.3"
 
 koa-simple-router@^0.2.0:
   version "0.2.0"
@@ -505,7 +450,7 @@ koa-views@^6.0.2:
     koa-send "^4.0.0"
     mz "^2.4.0"
 
-koa@^2.0.0, koa@^2.3.0:
+koa@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/koa/-/koa-2.3.0.tgz#9e1e8e4da401839c57b8527eadc57f76127555a7"
   dependencies:
@@ -537,18 +482,6 @@ koa@^2.0.0, koa@^2.3.0:
 lazy-cache@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
-
-lodash.foreach@^4.1.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.foreach/-/lodash.foreach-4.5.0.tgz#1a6a35eace401280c7f06dddec35165ab27e3e53"
-
-lodash.get@^4.0.2:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
-
-lodash@^3.3.1:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
 lodash@^4.14.0:
   version "4.17.4"
@@ -607,29 +540,7 @@ mongodb@2.2.31:
     mongodb-core "2.1.15"
     readable-stream "2.2.7"
 
-mongoose-bcrypt@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/mongoose-bcrypt/-/mongoose-bcrypt-1.5.0.tgz#1414fba4df091b8c6b6a11d0354a3c2b1b80dc42"
-  dependencies:
-    bcrypt-nodejs "0.0.3"
-    mongoose "3.8.* || >=4"
-    semver ">=1.1.0"
-
-mongoose-relationship@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/mongoose-relationship/-/mongoose-relationship-0.1.5.tgz#2a95fdeae41f295a81d9b327fad1cf64af13c27a"
-  dependencies:
-    async "0.2.10"
-    lodash "^3.3.1"
-
-mongoose-unique-validator@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/mongoose-unique-validator/-/mongoose-unique-validator-1.0.5.tgz#591872fafe0830939f0b756b6554243c93163aa0"
-  dependencies:
-    lodash.foreach "^4.1.0"
-    lodash.get "^4.0.2"
-
-"mongoose@3.8.* || >=4", mongoose@^4.11.11:
+mongoose@^4.11.11:
   version "4.11.11"
   resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-4.11.11.tgz#ae9baf860241e086c90b226fdda52f1afddc6a7b"
   dependencies:
@@ -828,10 +739,6 @@ qs@^6.4.0:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.1.tgz#349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8"
 
-random-bytes@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/random-bytes/-/random-bytes-1.0.0.tgz#4f68a1dc0ae58bd3fb95848c30324db75d64360b"
-
 raw-body@^2.2.0:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/raw-body/-/raw-body-2.3.2.tgz#bcd60c77d3eb93cde0050295c3f379389bc88f89"
@@ -899,7 +806,7 @@ sax@0.5.x:
   version "0.5.8"
   resolved "https://registry.yarnpkg.com/sax/-/sax-0.5.8.tgz#d472db228eb331c2506b0e8c15524adb939d12c1"
 
-semver@>=1.1.0, semver@^5.1.0:
+semver@^5.1.0:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
 
@@ -938,10 +845,6 @@ source-map@~0.5.1:
 "statuses@>= 1.3.1 < 2", statuses@^1.2.0:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.3.1.tgz#faf51b9eb74aaef3b3acf4ad5f61abf24cb7b93e"
-
-stream-injecter@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/stream-injecter/-/stream-injecter-0.0.1.tgz#7507ae5eab9836536665e81ad8ce31b40fe3d455"
 
 string_decoder@~1.0.0:
   version "1.0.3"
@@ -995,12 +898,6 @@ uglify-js@^2.6.1:
 uglify-to-browserify@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz#6e0924d6bda6b5afe349e39a6d632850a0f882b7"
-
-uid-safe@^2.1.3:
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/uid-safe/-/uid-safe-2.1.5.tgz#2b3d5c7240e8fc2e58f8aa269e5ee49c0857bd3a"
-  dependencies:
-    random-bytes "~1.0.0"
 
 unpipe@1.0.0:
   version "1.0.0"
