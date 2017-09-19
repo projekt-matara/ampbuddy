@@ -4,10 +4,6 @@ const koa = require('koa')
 const mongoose = Promise.promisifyAll(require('mongoose'))
 const config = require('./config')
 
-// import authentication modules
-const passport = require('koa-passport')
-const passortLocal = require('passport-local')
-
 // import middleware config
 const bodyParser = require('koa-bodyParser')
 const convert = require('koa-convert')
@@ -118,11 +114,6 @@ app.use(router(_ => {
       amps: genreAmpList
     })
   }),
-  _.get('/rig', async ctx => {
-    await ctx.render('home', {
-      title: 'AmpBuddy'
-    })
-  })
   _.get('/error', async ctx => {
     await ctx.render('error', {
       title: 'AmpBuddy Error',
