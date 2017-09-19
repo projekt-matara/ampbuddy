@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+  #navbar
+    include includes/navbar.pug
+  .grid-container
+    div(class='grid-x grid-margin-x')
+      each amp in amps
+        div(class='large-3 cells')
+          div(class='amp-card')
+            .amp-card-thumbnail
+              a(href='#')
+                img(src=amp.image)
+            h2.amp-card-title
+              a(href='#') #{amp.name}
+            span.amp-card-desc Genres: #{amp.genres}

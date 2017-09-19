@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Engl Powerball",
+    "genres": ["metal", "rock"],
+    "image": "/img/Engl-Powerball.jpg"
+  },
+  {
+    "name": "Diezel Herbert",
+    "genres": ["metal", "rock"],
+    "image": "/img/Diezel-Herbert.jpg"
+  },
+  {
+    "name": "EVH 5150",
+    "genres": ["metal", "rock"],
+    "image": "/img/EVH-5150.jpg"
+  },
+  {
+    "name": "EVH 5150 Stealth",
+    "genres": ["metal", "rock"],
+    "image": "/img/EVH-5150-Stealth.jpg"
+  },
+  {
+    "name": "Fender Deluxe Reverb",
+    "genres": ["country", "jazz", "pop", "blues"],
+    "image": "/img/Fender-Deluxe-Reverb.png"
+  },
+  {
+    "name": "Fender Metalhead",
+    "genres": ["metal", "rock"],
+    "image": "/img/Fender-Metalhead.jpg"
+  },
+  {
+    "name": "Fender Tweed",
+    "genres": ["country", "blues"],
+    "image": "/img/Fender-Tweed.jpg"
+  },
+  {
+    "name": "Fender Twin Reverb",
+    "genres": ["country", "blues", "pop", "jazz", "rock"],
+    "image": "/img/Fender-Twin-Reverb.jpg"
+  },
+  {
+    "name": "Marshall AFD 100",
+    "genres": ["metal", "rock", "country", "pop", "blues"],
+    "image": "/img/Marshall-AFD100.jpg"
+  },
+  {
+    "name": "Marshall JCM 800",
+    "genres": ["metal", "rock", "country", "pop", "blues"],
+    "image": "/img/Marshall-JCM800.jpg"
+  },
+  {
+    "name": "Marshall Jubilee",
+    "genres": ["rock", "country", "pop", "blues"],
+    "image": "/img/Marshall-Jubilee.jpg"
+  },
+  {
+    "name": "Marshall JVM 410H",
+    "genres": ["metal", "rock", "country", "pop"],
+    "image": "/img/Marshall-JVM-410H.jpg"
+  },
+  {
+    "name": "Marshall Plexi",
+    "genres": ["blues, country"],
+    "image": "/img/Marshall-Plexi.jpg"
+  },
+  {
+    "name": "Mesa Boogie Dual Rectifer",
+    "genres": ["metal", "rock"],
+    "image": "/img/Mesa-Dual-Rectifier.jpg"
+  },
+  {
+    "name": "Mesa Mark V",
+    "genres": ["metal", "rock", "pop", "country"],
+    "image": "/img/Mesa-Mark-V.jpg"
+  },
+  {
+    "name": "Mesa Triple Rectifier",
+    "genres": ["metal", "rock"],
+    "image": "/img/Mesa-Triple-Rectifier.jpg"
+  },
+  {
+    "name": "Orange Rockerverb",
+    "genres": ["rock", "pop", "metal"],
+    "image": "/img/Orange-Rockerverb.jpg"
+  },
+  {
+    "name": "Orange Thunderverb",
+    "genres": ["metal", "rock", "pop"],
+    "image": "/img/Orange-Thunderverb.jpg"
+  },
+  {
+    "name": "Peavey 6505",
+    "genres": ["metal"],
+    "image": "/img/Peavey-6505.jpg"
+  },
+  {
+    "name": "PRS Archon",
+    "genres": ["metal", "rock", "blues", "jazz", "country", "pop"],
+    "image": "/img/PRS-Archon.jpg"
+  },
+  {
+    "name": "Roland JC-120",
+    "genres": ["jazz", "pop"],
+    "image": "/img/Roland-JC120.jpg"
+  },
+  {
+    "name": "Vox AC-30",
+    "genres": ["country", "pop", "jazz", "blues"],
+    "image": "/img/Vox-AC30.png"
+  }
+]
