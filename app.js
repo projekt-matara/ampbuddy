@@ -5,7 +5,6 @@ const mongoose = Promise.promisifyAll(require('mongoose'))
 const config = require('./config')
 
 // import middleware config
-const bodyParser = require('koa-bodyParser')
 const convert = require('koa-convert')
 const router = require('koa-simple-router')
 const views = require('koa-views')
@@ -75,9 +74,6 @@ app.use(async (ctx, next) => {
   const ms = new Date() - start
   console.log(`${ctx.method} ${ctx.url} - ${ms}`)
 })
-
-// body parser
-app.use(bodyParser())
 
 // process stylus files
 app.use(convert(stylus('./assets/style')))
