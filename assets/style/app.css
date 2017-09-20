@@ -64,7 +64,7 @@
     padding-left: 10%;
   }
 }
-#menu .marketing-site-content-section {
+#menu .menu-site-content-section {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -72,12 +72,12 @@
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-#menu .marketing-site-content-section .button.round {
+#menu .menu-site-content-section .button.round {
   border-radius: 5000px;
   text-transform: uppercase;
   margin-bottom: 0;
 }
-#menu .marketing-site-content-section .marketing-site-content-section-img {
+#menu .menu-site-content-section .menu-site-content-section-img {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
@@ -86,17 +86,17 @@
   -ms-flex: 1 0 100%;
   flex: 1 0 100%;
 }
-#menu .marketing-site-content-section .marketing-site-content-section-img img {
+#menu .menu-site-content-section .menu-site-content-section-img img {
   width: 100%;
 }
 @media screen and (min-width: 40em) {
-  #menu .marketing-site-content-section .marketing-site-content-section-img {
+  #menu .menu-site-content-section .menu-site-content-section-img {
     -webkit-flex: 1 0 50%;
     -ms-flex: 1 0 50%;
     flex: 1 0 50%;
   }
 }
-#menu .marketing-site-content-section .marketing-site-content-section-block {
+#menu .menu-site-content-section .menu-site-content-section-block {
   padding: 1rem;
   -webkit-flex: 1 0 100%;
   -ms-flex: 1 0 100%;
@@ -119,20 +119,20 @@
   align-items: flex-start;
 }
 @media screen and (min-width: 40em) {
-  #menu .marketing-site-content-section .marketing-site-content-section-block {
+  #menu .menu-site-content-section .menu-site-content-section-block {
     -webkit-flex: 1 0 50%;
     -ms-flex: 1 0 50%;
     flex: 1 0 50%;
     padding: 2rem;
   }
 }
-#menu .marketing-site-content-section-block-header {
+#menu .menu-site-content-section-block-header {
   font-size: 24px;
 }
-#menu .marketing-site-content-section-block-subheader {
+#menu .menu-site-content-section-block-subheader {
   font-size: 13px;
 }
-#error .marketing-site-hero {
+#error .error-site-hero {
   background: url("/img/shipwreck.jpg") top right no-repeat;
   height: 65vh;
   background-size: cover;
@@ -144,26 +144,26 @@
   align-items: center;
 }
 @media screen and (min-width: 40em) {
-  #error .marketing-site-hero {
+  #error .error-site-hero {
     background-position: center center;
   }
 }
-#error .marketing-site-hero-content {
+#error .error-site-hero-content {
   max-width: 30rem;
   margin: 0 auto;
   padding-left: 5%;
   padding-right: 5%;
 }
-#error .marketing-site-hero-content h1 {
+#error .error-site-hero-content h1 {
   font-size: 32px;
   color: #000;
   font-weight: bold;
 }
-#error .marketing-site-hero-content p {
+#error .error-site-hero-content p {
   color: #000;
 }
 @media screen and (min-width: 40em) {
-  #error .marketing-site-hero-content {
+  #error .error-site-hero-content {
     padding-left: 0%;
   }
 }
